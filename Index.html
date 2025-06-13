@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Intelligent Evolution of Cybersecurity | Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFC;
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .brand-dark-blue { color: #0B2D48; }
+        .brand-blue-primary { color: #1E88E5; }
+        .brand-blue-secondary { color: #42A5F5; }
+        .brand-accent { color: #FFD600; }
+        .bg-brand-dark-blue { background-color: #0B2D48; }
+        .bg-brand-blue-primary { background-color: #1E88E5; }
+        .bg-brand-blue-secondary { background-color: #42A5F5; }
+        .bg-brand-accent { background-color: #FFD600; }
+        .border-brand-accent { border-color: #FFD600; }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 300px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .flow-arrow::after {
+            content: '→';
+            font-size: 2.5rem;
+            line-height: 1;
+            color: #90CAF9;
+            margin: 0 1rem;
+        }
+        @media (max-width: 768px) {
+            .flow-arrow::after {
+                content: '↓';
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body class="brand-dark-blue">
+
+    <main class="w-full">
+        <section class="text-center py-20 px-4 bg-brand-dark-blue text-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-black mb-4 text-shadow brand-accent">The Intelligent Evolution of Cybersecurity</h1>
+                <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto brand-blue-secondary">How GenAI and Agentic Automation are Redefining the SOC Level 1 Frontier.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <p class="text-5xl md:text-7xl font-bold brand-accent">10,000</p>
+                        <p class="mt-2 text-lg text-gray-300">Average Daily Security Alerts Per Analyst</p>
+                        <p class="text-sm mt-2 text-gray-400">This overwhelming volume leads to critical alert fatigue and burnout, risking missed threats.</p>
+                    </div>
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <p class="text-5xl md:text-7xl font-bold brand-accent">$10.5T</p>
+                        <p class="mt-2 text-lg text-gray-300">Projected Annual Cost of Cybercrime by 2025</p>
+                        <p class="text-sm mt-2 text-gray-400">The financial stakes demand a fundamental shift from reactive defense to proactive, intelligent automation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-20 px-4">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">From Automation to Autonomy</h2>
+                <p class="text-lg text-gray-600 mb-12">The evolution of AI in cybersecurity is a journey from simple task execution to sophisticated, goal-oriented reasoning. Understanding this progression is key to harnessing its full potential.</p>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto">
+                <div class="flex-1 text-center p-4">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-gray-400 h-full">
+                        <p class="text-5xl mb-4">⚙️</p>
+                        <h3 class="font-bold text-xl mb-2">RPA</h3>
+                        <p class="text-gray-600">Mimics human actions for repetitive, rule-based tasks. The foundation of automation.</p>
+                    </div>
+                </div>
+                <div class="flow-arrow hidden md:flex"></div>
+                <div class="flow-arrow flex md:hidden"></div>
+                <div class="flex-1 text-center p-4">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-blue-300 h-full">
+                        <p class="text-5xl mb-4">📊</p>
+                        <h3 class="font-bold text-xl mb-2">Traditional AI</h3>
+                        <p class="text-gray-600">Analyzes existing data for pattern recognition and predictive decision support.</p>
+                    </div>
+                </div>
+                <div class="flow-arrow hidden md:flex"></div>
+                <div class="flow-arrow flex md:hidden"></div>
+                <div class="flex-1 text-center p-4">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 brand-blue-primary h-full">
+                        <p class="text-5xl mb-4">💡</p>
+                        <h3 class="font-bold text-xl mb-2">Generative AI</h3>
+                        <p class="text-gray-600">Creates new content and synthesizes insights with deep contextual understanding.</p>
+                    </div>
+                </div>
+                <div class="flow-arrow hidden md:flex"></div>
+                <div class="flow-arrow flex md:hidden"></div>
+                <div class="flex-1 text-center p-4">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 brand-accent h-full">
+                        <p class="text-5xl mb-4">🤖</p>
+                        <h3 class="font-bold text-xl mb-2">Agentic Automation</h3>
+                        <p class="text-gray-600">Perceives, reasons, and acts autonomously to achieve complex security goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-16 sm:py-20 px-4 bg-gray-100">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Transforming the Frontline: GenAI in the SOC</h2>
+                <p class="text-lg text-gray-600 mb-12">GenAI and Agentic Automation are delivering measurable results, turning overwhelming data streams into actionable intelligence and freeing analysts to focus on what matters most.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-bold mb-2">Smarter Log Analysis</h3>
+                    <p class="text-gray-600 mb-4 h-20">GenAI interprets unstructured logs, identifying subtle attack patterns and zero-day threats missed by traditional rules.</p>
+                    <div class="chart-container">
+                        <canvas id="falsePositiveChart"></canvas>
+                    </div>
+                     <p class="text-sm text-gray-500 mt-4">AI acts as a secondary analysis layer, significantly improving the signal-to-noise ratio for analysts.</p>
+                </div>
+                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-bold mb-2">Automated Alert Triage</h3>
+                    <p class="text-gray-600 mb-4 h-20">AI automatically enriches, prioritizes, and groups thousands of daily alerts into manageable incidents, fighting analyst fatigue.</p>
+                    <div class="chart-container">
+                        <canvas id="alertTriageChart"></canvas>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-4">Based on metrics from Intezer's AI SOC, demonstrating remarkable triage efficiency.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-bold mb-2">Accelerated Reporting</h3>
+                    <p class="text-gray-600 mb-4 h-20">GenAI automates the creation of detailed incident reports and summaries, eliminating hours of manual work for analysts.</p>
+                    <div class="flex flex-col justify-center items-center h-full">
+                         <p class="text-7xl font-extrabold brand-blue-primary">25%</p>
+                         <p class="text-2xl font-bold">Productivity Boost</p>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-4">Proofpoint's GenAI feature frees SOC, IR, and CTI teams for higher-value strategic tasks.</p>
+                </div>
+                 <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center">
+                    <h3 class="text-xl font-bold mb-2">Rapid Incident Response</h3>
+                    <p class="text-gray-600 mb-4 h-20">By automating detection and routine tasks, AI drastically cuts down the time from threat identification to containment.</p>
+                    <div class="flex flex-col md:flex-row justify-around items-center h-full w-full">
+                        <div class="text-center m-4">
+                            <p class="text-5xl font-extrabold brand-blue-primary">50%</p>
+                            <p class="text-xl font-bold">Reduction in MTTD</p>
+                        </div>
+                         <div class="text-center m-4">
+                            <p class="text-5xl font-extrabold brand-blue-primary">90%</p>
+                            <p class="text-xl font-bold">of Alerts Automated</p>
+                        </div>
+                    </div>
+                     <p class="text-sm text-gray-500 mt-4">Tangible results seen by organizations embracing AI-driven security automation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-20 px-4">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">The Human-AI Partnership</h2>
+                <p class="text-lg text-gray-600 mb-12">The goal isn't to replace human expertise, but to amplify it. AI acts as a "co-pilot," empowering analysts to work more strategically and effectively.</p>
+            </div>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <p class="text-5xl mb-4">🧘</p>
+                    <h3 class="font-bold text-xl mb-2">Combat Burnout</h3>
+                    <p class="text-gray-600">By automating tedious work and reducing noise, AI increases job satisfaction and helps retain critical cybersecurity talent.</p>
+                </div>
+                <div class="text-center p-6">
+                    <p class="text-8xl">🧑‍💻 <span class="brand-blue-primary mx-4">+</span> 🤖</p>
+                    <h3 class="font-bold text-2xl mt-4">Better Together</h3>
+                    <p class="text-gray-600 mt-2">AI handles the data, humans provide the judgment. This collaborative model is the future of resilient defense.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                     <p class="text-5xl mb-4">🎓</p>
+                    <h3 class="font-bold text-xl mb-2">Bridge the Skills Gap</h3>
+                    <p class="text-gray-600">AI guides junior analysts, suggesting next steps and empowering them to operate at a higher level, multiplying team capabilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-20 px-4 bg-gray-100">
+             <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Navigating the Risks</h2>
+                <p class="text-lg text-gray-600 mb-12">Adopting powerful technology requires a balanced perspective. Proactive management of these potential pitfalls is essential for success.</p>
+            </div>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <p class="text-4xl mb-3">⚠️</p>
+                    <h3 class="font-bold text-lg mb-2">Over-reliance</h3>
+                    <p class="text-sm text-gray-600">AI provides fast, intuitive analysis but lacks human critical reasoning. Human oversight ("System 2" thinking) remains essential.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <p class="text-4xl mb-3">❓</p>
+                    <h3 class="font-bold text-lg mb-2">Hallucination</h3>
+                    <p class="text-sm text-gray-600">GenAI can fabricate incorrect data. Outputs must be grounded in verified sources and validated by human experts.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-md p-6">
+                     <p class="text-4xl mb-3">🔒</p>
+                    <h3 class="font-bold text-lg mb-2">Data Privacy</h3>
+                    <p class="text-sm text-gray-600">Processing vast data requires robust governance to protect sensitive information, prevent bias, and ensure ethical use.</p>
+                </div>
+                 <div class="bg-white rounded-xl shadow-md p-6">
+                    <p class="text-4xl mb-3">⚔️</p>
+                    <h3 class="font-bold text-lg mb-2">Adversarial AI</h3>
+                    <p class="text-sm text-gray-600">Threat actors are also using AI. This creates an arms race, demanding continuous adaptation and innovation in defensive strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-brand-dark-blue text-white py-20 px-4">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Call to Action: Build the SOC of Tomorrow</h2>
+                <p class="text-lg brand-blue-secondary mb-12">The journey to an intelligent, resilient SOC requires a strategic commitment from both professionals and organizations.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white/10 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-4 brand-accent">For Professionals</h3>
+                    <ul class="space-y-3 text-gray-300 list-disc list-inside">
+                        <li><span class="font-semibold">Embrace Continuous Learning:</span> Develop AI literacy and data analysis skills to manage and optimize intelligent systems.</li>
+                        <li><span class="font-semibold">Leverage, Don't Fear, Automation:</span> Master AI tools to augment your capabilities and focus on strategic problem-solving.</li>
+                    </ul>
+                </div>
+                <div class="bg-white/10 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-4 brand-accent">For Organizations</h3>
+                     <ul class="space-y-3 text-gray-300 list-disc list-inside">
+                        <li><span class="font-semibold">Invest Strategically:</span> Start with high-impact use cases and build a human-on-the-loop collaborative model.</li>
+                        <li><span class="font-semibold">Implement Robust Governance:</span> Proactively manage AI risks through strong ethical frameworks and continuous validation.</li>
+                        <li><span class="font-semibold">Empower Your People:</span> Remember that human talent is your ultimate asset. Invest in training and upskilling.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="text-center py-6 px-4 bg-gray-900 text-gray-400 text-sm">
+        <p>Infographic based on the report: "The Intelligent Evolution of Cybersecurity".</p>
+        <p>&copy; 2025. This visualization is for illustrative purposes.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const brilliantBlues = {
+                darkBlue: '#0B2D48',
+                primary: '#1E88E5',
+                secondary: '#42A5F5',
+                lightBlue: '#90CAF9',
+                accent: '#FFD600',
+                gray: '#B0BEC5'
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                }
+                return label;
+            };
+
+            const defaultChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: brilliantBlues.darkBlue,
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                           title: tooltipTitleCallback
+                        }
+                    }
+                }
+            };
+            
+            function wrapLabel(label, maxWidth) {
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > maxWidth) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            }
+
+            const ctxFalsePositive = document.getElementById('falsePositiveChart');
+            if(ctxFalsePositive) {
+                new Chart(ctxFalsePositive, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Reduction in False Positives', 'Remaining'],
+                        datasets: [{
+                            label: 'False Positive Rate',
+                            data: [30, 70],
+                            backgroundColor: [
+                                brilliantBlues.primary,
+                                brilliantBlues.lightBlue,
+                            ],
+                            borderColor: '#ffffff',
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        ...defaultChartOptions,
+                        cutout: '70%',
+                        plugins: {
+                             ...defaultChartOptions.plugins,
+                             title: {
+                                display: true,
+                                text: 'Predicted 30% Reduction in False Positives by 2027',
+                                color: brilliantBlues.darkBlue,
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            const ctxAlertTriage = document.getElementById('alertTriageChart');
+            if(ctxAlertTriage) {
+                new Chart(ctxAlertTriage, {
+                    type: 'bar',
+                    data: {
+                        labels: [wrapLabel('Alerts Handled Autonomously by AI', 16), wrapLabel('Alerts Requiring Human Escalation', 16)],
+                        datasets: [{
+                            label: 'Percentage of Alerts',
+                            data: [96.19, 3.81],
+                            backgroundColor: [
+                                brilliantBlues.primary,
+                                brilliantBlues.accent,
+                            ],
+                            borderColor: [
+                                brilliantBlues.primary,
+                                brilliantBlues.accent,
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        ...defaultChartOptions,
+                        indexAxis: 'y',
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                max: 100,
+                                ticks: {
+                                    callback: function(value) {
+                                        return value + '%'
+                                    },
+                                    color: brilliantBlues.darkBlue
+                                }
+                            },
+                             y: {
+                                ticks: {
+                                    color: brilliantBlues.darkBlue
+                                }
+                            }
+                        },
+                         plugins: {
+                            ...defaultChartOptions.plugins,
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'AI Alert Triage Efficiency',
+                                color: brilliantBlues.darkBlue,
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
